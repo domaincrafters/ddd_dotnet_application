@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Domaincrafters.Domain\Domaincrafters.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Domaincrafters.Application\Domaincrafters.Application.csproj" />
   </ItemGroup>
 
 </Project>

@@ -26,7 +26,7 @@ public readonly struct Unit : IEquatable<Unit>
     /// </summary>
     /// <param name="obj">The object to compare with the current instance.</param>
     /// <returns><c>true</c> if the object is a <see cref="Unit"/>; otherwise, <c>false</c>.</returns>
-    public override bool Equals(object obj) => obj is Unit;
+    public override bool Equals(object? obj) => obj is Unit;
 
     /// <summary>
     /// Returns a hash code for the current <see cref="Unit"/>.
